@@ -9,5 +9,4 @@ hotel-booking/
 │── routes/  
 │   │── api.js  
 │── sql/  
-│   │── schema.sql  
-│   │── seed.sql  
+│   │── mysql.sql 
