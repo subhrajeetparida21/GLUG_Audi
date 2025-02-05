@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hotel Booking</h1>
+    
+    <div id="login-section">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="hotel-check-section" style="display:none;">
+        <h2>Available Hotels</h2>
+        <button onclick="fetchHotels()">Check Availability</button>
+        <ul id="hotel-list"></ul>
+        
+        <h2>Your Bookings</h2>
+        <button onclick="fetchBookings()">View My Bookings</button>
+        <ul id="booking-list"></ul>
+
+        <h2>Book a Hotel</h2>
+        <select id="hotel-select"></select><br>
+        <input type="date" id="check-in" placeholder="Check-in Date">
+        <input type="date" id="check-out" placeholder="Check-out Date">
+        <button onclick="bookHotel()">Book Hotel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

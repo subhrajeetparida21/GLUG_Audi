@@ -1,0 +1,13 @@
+hotel-booking/
+│── server.js  
+│── db.js  
+│── package.json  
+│── public/  
+│   │── index.html  
+│   │── style.css  
+│   │── script.js  
+│── routes/  
+│   │── api.js  
+│── sql/  
+│   │── schema.sql  
+│   │── seed.sql  
